@@ -1,39 +1,39 @@
 {
   "project_info": {
-    "project_number": "247437184092",
-    "project_id": "first-app-d1d65",
-    "storage_bucket": "first-app-d1d65.appspot.com"
+    "project_number": process.env.REACT_APP_PROJECT_NUMBER,
+    "project_id": process.env.REACT_APP_PROJECT_ID,
+    "storage_bucket": process.env.REACT_APP_STORAGE_BUCKET
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:247437184092:android:456f9ed9b9cb588cf5ea99",
+        "mobilesdk_app_id": process.env.REACT_APP_MOBILESDK_APP_ID,
         "android_client_info": {
-          "package_name": "com.testing.app"
+          "package_name": process.env.REACT_APP_PACKAGE_NAME
         }
       },
       "oauth_client": [
         {
-          "client_id": "247437184092-m911jhi97hfug0c3efcpp8cbo2vd4st5.apps.googleusercontent.com",
-          "client_type": 3
+          "client_id": process.env.REACT_APP_OAUTH_CLIENT_ID,
+          "client_type": process.env.REACT_APP_OAUTH_CLIENT_TYPE
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCV1tejuNHllhTajME6suUKzu8VKPAyHpg"
+          "current_key": process.env.REACT_APP_API_KEY
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "247437184092-m911jhi97hfug0c3efcpp8cbo2vd4st5.apps.googleusercontent.com",
-              "client_type": 3
+              "client_id": process.env.REACT_APP_OTHER_PLATFORM_CLIENT_ID,
+              "client_type": process.env.REACT_APP_OTHER_PLATFORM_CLIENT_TYPE
             }
           ]
         }
       }
     }
   ],
-  "configuration_version": "1"
+  "configuration_version": process.env.REACT_APP_CONFIGURATION_VERSION
 }
